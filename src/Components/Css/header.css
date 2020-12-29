@@ -1,0 +1,16 @@
+
+
+.extraImage {
+    border-top: 3px solid rgb(100, 190, 178);
+}
+
+@font-face {
+    font-family: "PlayfairDisplay-Regular";
+    src: local("PlayfairDisplay-Regular"),
+      url("../../fonts/PlayfairDisplay-Regular.ttf") format("truetype");
+    font-weight: normal;
+  }
+
+  .container1 {
+    font-family: PlayfairDisplay-Medium;
+  }

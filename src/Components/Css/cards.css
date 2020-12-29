@@ -1,0 +1,23 @@
+.cards {
+    padding-top: 0.7cm;
+    padding-bottom: 1cm;
+    color: black!important;
+    font-family: PlayfairDisplay-Regular;
+}
+@font-face {
+    font-family: "PlayfairDisplay-Regular";
+    src: local("PlayfairDisplay-Regular"),
+      url("../../fonts/PlayfairDisplay-Regular.ttf") format("truetype");
+    font-weight: normal;
+  }
+
+  .card1 {
+    color:	#3AB09E!important;
+    font-size: x-large;
+    padding-bottom: 0.5cm;
+  }
+  
+  .card1:hover {
+    color:	#3a87b0!important;
+    font-size: x-large;
+  }

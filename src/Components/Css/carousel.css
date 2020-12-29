@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "PlayfairDisplay-Regular";
+    src: local("PlayfairDisplay-Regular"),
+      url("../../fonts/PlayfairDisplay-Regular.ttf") format("truetype");
+    font-weight: normal;
+  }
+  
+  h3, p {
+    font-family: PlayfairDisplay-Regular;
+  }

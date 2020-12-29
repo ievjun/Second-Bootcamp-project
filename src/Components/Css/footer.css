@@ -1,0 +1,30 @@
+.extraImage2 {
+    border-bottom: 3px solid rgb(100, 190, 178);
+
+}
+
+.footerImage {
+    width: 20%;
+    height: 10%;
+    
+}
+
+footer {
+    font-family: PlayfairDisplay-Regular;
+    text-align: center;
+}
+
+@font-face {
+    font-family: "PlayfairDisplay-Regular";
+    src: local("PlayfairDisplay-Regular"),
+      url("../../fonts/PlayfairDisplay-Regular.ttf") format("truetype");
+    font-weight: normal;
+  }
+
+
+  .footerText {
+      text-align: center;
+      padding-top: 6%;
+  }
+
+  
