@@ -8,19 +8,7 @@ export default function Todo(props) {
     const [isCompleted, setIscompleted] = useState(props.todo.isCompleted);
     const [isOpen, setIsOpen] = useState(false)
 
-    // const completeTask = async (id) => {
-    //     const localIsCompleted = !isCompleted;
-    //     setIscompleted(localIsCompleted)
-    //     try {
-    //         const url = `http://localhost:3001/tasks/complete/${id}`;
-    //         await Axios.patch(url, {
-    //             isCompleted: localIsCompleted,
-    //         });
-    //         props.refreshTasks()
-    //     } catch(e) {
-    //         alert('Something went wrong');
-    //     }
-    // }
+
 
     let title = props.todo.title
     if (isCompleted) {
